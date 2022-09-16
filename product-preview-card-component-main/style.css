@@ -20,3 +20,34 @@
     --white: hsl(0, 0%, 100%);
 
 }
+
+body{
+    background-color: var(--cream);
+    font-family: 'Montserrat', sans-serif;
+}
+
+body p{
+    font-size: 14px;
+}
+
+.montserrat{
+    font-family: 'Montserrat', sans-serif;
+    color: var(--dark-graying-blue);
+}
+
+.fraunces{
+    font-family: 'Fraunces', serif;
+}
+
+.card{
+    width: 90vw;
+    margin: 10% auto;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: var(--white);
+}
+
+.card__image{
+    width: 100%;
+    display: block;
+}
