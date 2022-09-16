@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+*, 
+*::after, 
+*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    /* primary colors */
+    --dark-cyan: hsl(150,36%,37%);
+    --cream: hsl(30,38%,92%);
+
+    /* Neutral colors */
+    --very-dark-blue: hsl(212, 21%, 14%);
+    --dark-graying-blue: hsl(228, 12%,48%);
+    --white: hsl(0, 0%, 100%);
+
+}
